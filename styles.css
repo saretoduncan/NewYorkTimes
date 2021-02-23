@@ -2,3 +2,69 @@
   margin: 0;
   padding: 0;
 }
+
+a {
+  text-decoration: none;
+}
+
+/* ...........navbar- start............ */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  height: 2rem;
+  background-color: white;
+  padding: 8px 0;
+}
+
+.navright {
+  padding-left: 10px;
+}
+
+.navleft {
+  padding-right: 10px;
+}
+
+.navbutton {
+  margin: 5px 10px;
+  border: none;
+  background-color: white;
+}
+
+.navlink {
+  color: black;
+  font-size: 14px;
+  font-weight: 800;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+.navleft .navlink {
+  border: 1px solid rgb(109, 141, 189);
+  background-color: rgb(47, 78, 124);
+  border-radius: 5px;
+  padding: 9px 10px 8px;
+  letter-spacing: 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+}
+
+.logo {
+  width: 250px;
+  height: auto;
+  padding-bottom: 3px;
+}
+
+.navleft .navbutton {
+  border: 1px solid rgb(109, 141, 189);
+  background-color: rgb(47, 78, 124);
+  color: white;
+  font-weight: 700;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 9px 10px 8px;
+  border-radius: 4px;
+}
+
+/* ...........navbar - end............ */
