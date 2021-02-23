@@ -7,6 +7,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
 /* ...........navbar- start............ */
 .navbar {
   display: flex;
@@ -16,6 +20,7 @@ a {
   height: 2rem;
   background-color: white;
   padding: 8px 0;
+  border-bottom: 1px solid rgba(161, 160, 160, 0.192);
 }
 
 .navright {
@@ -34,7 +39,6 @@ a {
 
 .navlink {
   color: black;
-  font-size: 14px;
   font-weight: 800;
   padding-left: 10px;
   font-size: 15px;
@@ -68,3 +72,201 @@ a {
 }
 
 /* ...........navbar - end............ */
+.articles p {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 22px;
+}
+
+.title {
+  padding: 100px 0 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  font-weight: bold;
+  font-style: italic;
+  border-bottom: 1px solid rgba(161, 160, 160, 0.452);
+}
+
+.order {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.order li {
+  padding: 15px 12px;
+}
+
+.editors img {
+  width: 70px;
+  height: auto;
+  padding-right: 5px;
+}
+
+.order li a img {
+  width: 19px;
+}
+
+.order li button {
+  border: none;
+  background: rgba(255, 255, 255, 0);
+}
+
+.images {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.images .jumbo {
+  width: 950px;
+  height: auto;
+}
+
+.caption {
+  font-size: 15px;
+  opacity: 0.6;
+}
+
+.caption span {
+  opacity: 0.5;
+  font-size: 13px;
+}
+
+.top {
+  width: 50%;
+  margin: 0 24%;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.top a {
+  color: black;
+}
+
+.date {
+  width: 50%;
+  margin: 0 24%;
+  font-size: 14px;
+  padding: 0 14px;
+}
+
+.thanksnote {
+  text-align: center;
+  font-weight: bold;
+}
+
+.thanksnote hr {
+  width: 90px;
+  margin: 18px auto;
+  color: rgba(194, 192, 192, 0.164);
+}
+
+.editors {
+  width: 200px;
+  float: right;
+}
+
+.editors .order {
+  margin: 0;
+  width: 180px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+h2 {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.inflation {
+  background-image: url("images/inflation.png");
+  background-repeat: no-repeat;
+  background-size: 94%;
+  width: 70%;
+  margin: 0 auto;
+  padding: 80px 0 90px;
+}
+
+.inflation .order {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.inflation .order .theory {
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.inflation .order .theorysec {
+  padding: 50px 10px;
+  font-size: 14px;
+}
+
+.inflation hr {
+  width: 100px;
+  margin: 0 0 1% 0;
+}
+
+.inflation .top {
+  width: 50%;
+  margin: 0 auto;
+}
+
+h3 {
+  width: 70%;
+  margin: 0 auto;
+}
+.media{
+  width: 50%;
+  margin: 0 auto
+}
+.media iframe{
+  width: 680px;
+  height: 400px;
+  border: 3px solid #1d1c1c;
+}
+.media img{
+  width: 650px;
+  height: 400px;
+}
+.media .caption{
+  font-size: 15px;
+}
+.media .caption span{
+  font-size: 14px;
+}
+.frarticle{
+  width: 50%;
+  margin: 0 auto;
+  
+
+}
+.frarticle p{
+  font-size: 14px;
+  opacity: 0.8;
+}
+.frarticle .order{
+  margin: 0;
+  justify-content: space-between;
+  width: 80%;
+  
+}
+.frarticle .order .comment{
+  padding: 8px 60px  ;
+  border-radius:5px;
+  color: white;
+  background-color:rgb(109, 141, 189);
+  margin-top: 12px; 
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.frarticle .order ul{
+  display: flex;
+}
+
