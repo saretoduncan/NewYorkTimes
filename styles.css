@@ -319,6 +319,11 @@ h3 {
   font-size: 14px;
 }
 
+.newsletters h3 {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .newsletters h3 a {
   color: black;
 }
@@ -345,7 +350,7 @@ h4 {
 }
 
 .spaceimg {
-  width: 280px;
+  width: 250px;
 }
 
 .spanlink {
