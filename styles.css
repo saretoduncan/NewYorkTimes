@@ -11,7 +11,6 @@ li {
   list-style: none;
 }
 
-/* ...........navbar- start............ */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -71,7 +70,6 @@ li {
   border-radius: 4px;
 }
 
-/* ...........navbar - end............ */
 .articles p {
   width: 50%;
   margin: 0 auto;
@@ -109,6 +107,16 @@ li {
 .media img {
   width: 650px;
   height: 400px;
+}
+
+.alerts img {
+  padding: 20px;
+}
+
+.alerts a img {
+  float: right;
+  padding: 10px;
+  width: 36px;
 }
 
 .order li a img {
@@ -208,7 +216,7 @@ h2 {
 }
 
 .inflation .order .theorysec {
-  padding: 50px 10px;
+  padding: 60px 10px 0;
   font-size: 14px;
 }
 
@@ -259,14 +267,16 @@ h3 {
 .frarticle .order {
   margin: 0;
   justify-content: space-between;
-  width: 80%;
+  width: 100%;
 }
 
 .frarticle .order .comment {
-  padding: 8px 60px;
-  border-radius: 5px;
+  padding: 6px 60px;
+  border-radius: 3px;
   color: white;
   background-color: rgb(109, 141, 189);
+  border-color: rgb(109, 141, 189);
+  box-shadow: none;
   margin-top: 12px;
   font-size: 16px;
   font-weight: 900;
@@ -274,4 +284,174 @@ h3 {
 
 .frarticle .order ul {
   display: flex;
+}
+
+.top-footer {
+  display: flex;
+  padding-top: 70px;
+}
+
+.newsletters {
+  border-top: 1px solid black;
+  width: 90%;
+  margin: 30px 5%;
+  padding-top: 20px;
+}
+
+.suggestions {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  grid-gap: 20px;
+  margin-top: 20px;
+}
+
+.suggestions figure figcaption {
+  font-family: 'Lusitana', serif;
+  font-size: 18px;
+  padding: 5px 0;
+}
+
+.alerts span a {
+  padding: 5px 10px;
+  color: rgb(74, 111, 165);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.newsletters h3 a {
+  color: black;
+}
+
+.suggestions figure figcaption a {
+  color: black;
+  padding: 5px 0;
+}
+
+.alerts {
+  border: 1px solid rgba(165, 159, 159, 0.26);
+  width: 100%;
+  padding: 10px 0;
+}
+
+.alerts p {
+  padding: 0 10px 2px;
+  opacity: 0.8;
+}
+
+h4 {
+  color: rgba(46, 45, 45, 0.897);
+  font-weight: 800;
+}
+
+.spaceimg {
+  width: 280px;
+}
+
+.spanlink {
+  font-size: small;
+  color: rgba(0, 0, 0, 0.473);
+}
+
+.mostpopular {
+  margin: 30px 30px 0 0;
+  padding-top: 20px;
+  width: 80%;
+  border-top: 1px solid black;
+}
+
+.mostpopular ul li {
+  font-family: 'Lusitana', serif;
+  border-top: 1px solid rgba(26, 23, 23, 0.315);
+  padding: 20px 0;
+}
+
+.mostpopular ul li a {
+  color: black;
+  font-size: 20px;
+}
+
+.lsfooter {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.lsfooter .order {
+  width: 100%;
+  justify-content: space-between;
+  padding: 8px 0 10px;
+}
+
+.lsfooter .order .logo {
+  width: 200px;
+}
+
+.news ul li a {
+  color: rgb(29, 28, 28);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 550;
+}
+
+.border-left ul li a {
+  color: black;
+}
+
+.lsfooter .order a {
+  font-size: 12px;
+  color: rgb(107, 107, 230);
+}
+
+.news {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.news ul li {
+  padding: 3px 0;
+}
+
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgba(17, 16, 16, 0.849);
+  padding-bottom: 6px;
+}
+
+.border-left {
+  float: right;
+  width: 15%;
+  border-left: 1px solid rgba(165, 159, 159, 0.26);
+  padding-left: 5px;
+}
+
+.border-left .bold {
+  padding: 5px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.border-left .small-text {
+  color: rgb(29, 28, 28);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding: 3px;
+}
+
+.base-footer {
+  width: 90%;
+  margin: auto;
+}
+
+.base-footer .news {
+  width: 95%;
+  margin: auto;
+}
+
+.base-footer .news li a {
+  color: rgba(29, 28, 28, 0.527);
+  font-size: 12px;
 }
