@@ -16,9 +16,9 @@ li {
   justify-content: space-between;
   position: fixed;
   width: 100%;
-  height: 2rem;
+  height: 2.3rem;
   background-color: white;
-  padding: 0 0 8px;
+  padding: 2px 0 8px;
   border-bottom: 1px solid rgba(161, 160, 160, 0.192);
 }
 
@@ -31,10 +31,9 @@ li {
 }
 
 .navbutton {
-  margin: 5px 15px 0;
+  margin: 5px 5px 0;
   padding-top: 8px;
   padding-bottom: 0;
-  width: 4px;
   border: none;
   background-color: white;
 }
@@ -50,10 +49,10 @@ li {
   border: 1px solid #567b95;
   background-color: #567b95;
   border-radius: 5px;
-  padding: 9px 10px 6px;
+  padding: 9px 12px ;
   margin-bottom: 3px;
   letter-spacing: 0;
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 700;
   color: white;
 }
@@ -68,11 +67,11 @@ li {
   border: 1px solid #567b95;
   background-color: #567b95;
   color: white;
-  width: 29%;
   font-weight: 700;
+  font-size: 11px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  padding: 9px 10px 6px;
-  margin: 5px 10px 5px;
+  padding: 9px 12px ;
+  margin: 3px  ;
   border-radius: 3px;
 }
 
