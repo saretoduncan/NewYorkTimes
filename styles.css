@@ -18,7 +18,7 @@ li {
   width: 100%;
   height: 2rem;
   background-color: white;
-  padding: 8px 0;
+  padding: 0 0 8px;
   border-bottom: 1px solid rgba(161, 160, 160, 0.192);
 }
 
@@ -31,7 +31,10 @@ li {
 }
 
 .navbutton {
-  margin: 5px 10px;
+  margin: 5px 15px 0;
+  padding-top: 8px;
+  padding-bottom: 0;
+  width: 4px;
   border: none;
   background-color: white;
 }
@@ -40,14 +43,15 @@ li {
   color: black;
   font-weight: 800;
   padding-left: 10px;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .navleft .navlink {
-  border: 1px solid rgb(109, 141, 189);
-  background-color: rgb(47, 78, 124);
+  border: 1px solid #567b95;
+  background-color: #567b95;
   border-radius: 5px;
-  padding: 9px 10px 8px;
+  padding: 9px 10px 6px;
+  margin-bottom: 3px;
   letter-spacing: 0;
   font-size: 13px;
   font-weight: 700;
@@ -55,19 +59,21 @@ li {
 }
 
 .logo {
-  width: 250px;
+  width: 210px;
   height: auto;
-  padding-bottom: 3px;
+  padding-top: 3px;
 }
 
 .navleft .navbutton {
-  border: 1px solid rgb(109, 141, 189);
-  background-color: rgb(47, 78, 124);
+  border: 1px solid #567b95;
+  background-color: #567b95;
   color: white;
+  width: 29%;
   font-weight: 700;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  padding: 9px 10px 8px;
-  border-radius: 4px;
+  padding: 9px 10px 6px;
+  margin: 5px 10px 5px;
+  border-radius: 3px;
 }
 
 .articles p {
@@ -308,7 +314,7 @@ h3 {
 
 .suggestions figure figcaption {
   font-family: 'Lusitana', serif;
-  font-size: 18px;
+  font-size: 16px;
   padding: 5px 0;
 }
 
@@ -354,7 +360,7 @@ h4 {
 }
 
 .spanlink {
-  font-size: small;
+  font-size: 10px;
   color: rgba(0, 0, 0, 0.473);
 }
 

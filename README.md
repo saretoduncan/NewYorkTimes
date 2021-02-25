@@ -29,6 +29,10 @@ A computer with a working and up to date web browser.
 ### Setup
 
 - Clone the repository to your folder of choice using Git (or just download all the files)
+```
+$ git clone https://github.com/saretoduncan/NewYorkTimes.git
+
+```
 - Open the index.html file (in the root folder) and the website should show up.
 
 ## Author
@@ -46,7 +50,7 @@ A computer with a working and up to date web browser.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](.github/ISSUE_TEMPLATE/feature_request.md).
 
 ## Show your support
 
